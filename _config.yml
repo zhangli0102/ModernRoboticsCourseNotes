@@ -1,0 +1,7 @@
+title: Modern Robotics Course Notes
+description: Notes of Modern Robotics Course on Coursera
+show_downloads: false
+google_analytics: true
+theme: jekyll-theme-cayman
+mathjax: true
+markdown: kramdown
