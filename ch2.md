@@ -7,9 +7,9 @@ description: Modern Robotics Course Notes
 
 
 <p style="text-align:center;">
-<button onclick="window.location.href='index.html';">Homepage</button>
-<span style="float:left;"><button onclick="window.location.href='ch2.html';">Previous</button></span>
-<span style="float:right;"><button onclick="window.location.href='ch3.html';">Next</button></span>
+<button type="button" onclick="window.location.href='index.html';">Homepage</button>
+<span style="float:left;"><button type="button" onclick="window.location.href='ch2.html';">Previous</button></span>
+<span style="float:right;"><button type="button" onclick="window.location.href='ch3.html';">Next</button></span>
 </p>
 
 ## Some Terms
@@ -80,11 +80,11 @@ $$
 2. (Question 4&5 of quiz of chapter 2, part 1) A total of $n$ identical SRS arms are grasping a common object as shown below. Find the number of degrees of freedom of this system while the grippers hold the object rigidly (no relative motion between the object and the last links of the SRS arms). Your answer should be a mathematical expression including $n$.
    * The answer is $n+6$.
    * Note that all the graspers, together with the object, should be considered as a single link. 
-![q1_4]()
+![q1_4](https://raw.githubusercontent.com/MuchenSun/ModernRoboticsCourseNotes/master/_img/ch2_f1.jpg)
 3. (Question 7 of quiz of chapter 2, part 1) Use the planar version of Grubler's formula to determine the number of degrees of freedom of the mechanism shown below. Your answer should be an integer.
    * The answer is 3.
    * Removing all the **redundant joints**, this mechanism is same with an open-chain, 3R arm. 
-![q1_7]()
+![q1_7](https://raw.githubusercontent.com/MuchenSun/ModernRoboticsCourseNotes/master/_img/ch2_f2.jpg)
 
 ***
 
@@ -147,7 +147,7 @@ Both spaces are distinct from the robot's C-space.
 
 In Figure 2.7(b), as shown below, if the two joints connected to the ground are locked, then the mechanism has a dof of zero. This is true in most cases, and can be verified by Grübler's formula. (freedoms of the locked joints and other joints are zero and one)
 
-![ch2_f7](https://raw.githubusercontent.com/MuchenSun/Modern-Robotics-Course-Notes/master/_img/ch2_f7.jpg)
+![ch2_f7](https://raw.githubusercontent.com/MuchenSun/ModernRoboticsCourseNotes/master/_img/ch2_f7.jpg)
 
 However, this mechanism has a singularity, as shown in the right sub-figure. If the two middle links have a same length and overlap each other, then these two links can rotate together freely.
 

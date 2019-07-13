@@ -6,9 +6,9 @@ description: Modern Robotics Course Notes
 ---
 
 <p style="text-align:center;">
-<button onclick="window.location.href='index.html';">Homepage</button>
-<span style="float:left;"><button onclick="window.location.href='ch2.html';">Previous</button></span>
-<span style="float:right;"><button onclick="window.location.href='ch3.html';">Next</button></span>
+<button type="button" onclick="window.location.href='index.html';">Homepage</button>
+<span style="float:left;"><button type="button" onclick="window.location.href='ch2.html';">Previous</button></span>
+<span style="float:right;"><button type="button" onclick="window.location.href='ch3.html';">Next</button></span>
 </p>
 
 ## Rotations and Angular Velocities
