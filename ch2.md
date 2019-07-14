@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 mathjax: true
 title: 'Chapter 2: Configuration Space'
 description: Modern Robotics Course Notes

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 mathjax: true
 title: 'Chapter 3: Rigid-Body Motions'
 description: Modern Robotics Course Notes

@@ -3,7 +3,6 @@ layout: default
 mathjax: true
 title: 'Modern Robotics Course Notes'
 description: Notes of "Modern Robotics" Online Course
-is_project_page: false
 ---
 
 Here are my notes of the [*Modern Robotics*](http://hades.mech.northwestern.edu/index.php/Modern_Robotics) online course on [Coursera](https://www.coursera.org/specializations/modernrobotics) introduced by [Prof. Kevin Lynch](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/lynch-kevin.html) from Northwestern University. 
