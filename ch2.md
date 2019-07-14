@@ -3,6 +3,7 @@ layout: default
 mathjax: true
 title: 'Chapter 2: Configuration Space'
 description: Modern Robotics Course Notes
+is_project_page: false
 ---
 
 
