@@ -15,6 +15,8 @@ The purpose of these notes is to help quickly refresh the course materials, incl
 
 * [Chapter 2: Configuration Space](ch2.html)
 * [Chapter 3: Rigid-Body Motions](ch3.html)
+* [Chapter 4: Forward Kinematics](ch4.html)
+* [Chapter 5: Velocity Kinematics and Statics](ch5.html)
 
 ## $$\LaTeX$$ Support
 
