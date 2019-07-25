@@ -12,7 +12,7 @@ is_project_page: false
 <span style="float:right;"><button type="button" onclick="window.location.href='ch5.html';">Next</button></span>
 </p>
 
-## Forward Kinematics
+## Introduction
 
 ***Forward kinematics** of a robot refers to the calculation of the position and orientation of its end-effector frame from its joint coordinates $\theta$.*
 

@@ -66,7 +66,7 @@ dof = & \underbrace{m(N-1)}_{\text{rigid body freedoms}} - \underbrace{\sum_{i=1
 \end{aligned}
 $$
 
-### Several Notes for Applyging Grübler's Formula
+### Several Notes for Applyging Grübler's Formula {#notes_grubler}
 
 1. The ground is always considered as a link, but its number of degrees of freedom is 0.
 2. Careful with **overlapping joints**: example 2.5, page 20 of the textbook.
