@@ -11,12 +11,14 @@ This course has a very comprehensive [homepage](http://hades.mech.northwestern.e
 
 The purpose of these notes is to help quickly refresh the course materials, including textbook, course video, practise and quiz questions. All the notes are based on course materials and combined with my own understanding to the topics.
 
-## Table of Contents
+## **Table of Contents**
 
 * [Chapter 2: Configuration Space](ch2.html)
 * [Chapter 3: Rigid-Body Motions](ch3.html)
 * [Chapter 4: Forward Kinematics](ch4.html)
 * [Chapter 5: Velocity Kinematics and Statics](ch5.html)
+* [Chapter 6: Inverse Kinematics](ch6.html)
+* [Chapter 7: Kinematics of Closed Chains](ch7.html)
 
 ## $$\LaTeX$$ Support
 
@@ -28,7 +30,4 @@ All the contents in this website are under [CC BY-NC-SA 4.0](https://creativecom
 
 This website uses the [Cayman theme](https://github.com/pages-themes/cayman), which is under [CC0-1.0](https://github.com/MuchenSun/blog/blob/master/LICENSE) license.
 
-## About Me
-
-More information about me can be found at my [personal website](https://muchensun.github.io/).
 
