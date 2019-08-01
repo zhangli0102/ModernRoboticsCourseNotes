@@ -17,11 +17,15 @@ is_project_page: false
 
 These are two common solutions for inverse kinematics problem. Analytic solution depends on the structure of the robot. They can be easily obtained from some popluar robot structures like PUMA and Stanford robot arms (both are discussed in the book). However, for a more general purpose, numerical method is a better idea. Here, the numerical method is adapted from Newton-Raphson method.
 
+***
+
 ## Newton-Raphson Iterative Algorithm
 
 > ... **Newton's method**, also known as **Newton-Raphson method**, ..., is a root-finding algorithm which produces successively better approximations to the roots (or zeros) of a real-valued function. <sup>[1]</sup>
 
 For an iteration method, as well as recursion, I think the key issue is to find out the relation between two iterations. In the case of Newton-Raphson method, this relation is obtained by applying Taylor expansion to the target function and truncate it at first order.
+
+***
 
 ## Numerical Inverse Kinematics Problem
 
@@ -39,7 +43,33 @@ where $\Delta\theta = \theta^{k+1} - \theta^k$ and $J(\theta)$ is the Jacobian m
 
 To get $\Delta\theta$, we need to consider the dimension of $J$. If $J$ is invertible, just pre-multiply $J^{-1}$ to both sides. Otherwise, we need to use the **pseudoinverse** of $J$, denoted as $J^{\dagger}$. The idea behind $J^{\dagger}$ is we want to minimize $\Delta\theta$.
 
-### The Case of 
+### The Case of $SE(3)$
+
+For now we have:
+
+$$
+\Delta\theta = J^{\dagger} (x_d - f(\theta^k))
+$$
+
+where $e = x_d - f(\theta^k)$ can be considered as *a velocity vector which, if followed for unit time, would cause a motion from $f(\theta^k)$ to $x_d$*. When representing end-effector configuration with a transformation matrix $T \in SE(3)$, we also need a velocity value that described the same motion, that's why we calculate the matrix logarithm of $T_{bd}(\theta^i)$.
+
+***
+
+*(Since the rest two sections of this chpater in the book: "Inverse Velocity Kinematics" and "A Note on Closed Loops" are not mentioned in detail in the online course, I will skip these two section temporarily.)*
+
+***
+
+## Connections Between Chapter 3 and 6
+
+In this chapter, we use a twist $\mathcal{V}_b$ to describe a velocity which, *if followed for unit time*, would cause a motion from $$T_{sb}$$ to $$T_{sd}$$. We obtain this twist by:
+
+$$
+[\mathcal{V}_b] = log(T_{bd}(\theta^i))
+$$
+
+Even though we can simply remember the formula of matrix logarithm above
+
+***
 
 ## Python Solution for Course Quiz
 
@@ -91,6 +121,8 @@ if(successQ2):
 else:
     print("\nQuestion 2:\n", "Function \'IKinBody\' failed to converge.")
 ~~~
+
+***
 
 ## References
 
