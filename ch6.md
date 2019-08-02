@@ -67,7 +67,13 @@ $$
 [\mathcal{V}_b] = log(T_{bd}(\theta^i))
 $$
 
-Even though we can simply remember the formula of matrix logarithm above
+Similar idea has already mentioned in the textbook. At *section 3.2.3.3 "Matrix Logarithm of Rotations"* of the textbook, there is:
+
+> Just as the matrix exponential "integrates" the matrix representation of an angular velocity $[\hat{\omega}]\theta \in so(3)$ for one second to give an orientation $R \in SO(3)$, the matrix logarithm "differentiates" an $R \in SO(3)$ to find the matrix representation of a constant angular velocity $[\hat{\omega}]\theta \in so(3)$ which, if integrated for one second, rotates a frame from $I$ to $R$.
+
+This idea came from *section 3.2.3.2 "Exponential Coordinates of Rotations"* of the textbook, when the authors considered a rotation transformation along an axis $\hat{\omega}$ for $\theta$ radians as achieved by rotating in a constant speed of 1 rad/s for $\theta$ seconds (or in a constant speed of $\theta$ rad/s for one second).
+
+It is quite straightforward to employ this idea to the case of twist and homogeneous transformtion matrix. In *proposition 3.25* of the textbook, we can even determine that directly by seeing components of $e^{[\mathcal{S}]\theta}$.
 
 ***
 
