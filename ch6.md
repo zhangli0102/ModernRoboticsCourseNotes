@@ -9,7 +9,7 @@ is_project_page: false
 <p style="text-align:center;">
 <button type="button" onclick="window.location.href='index.html';">Homepage</button>
 <span style="float:left;"><button type="button" onclick="window.location.href='ch5.html';">Previous</button></span>
-<span style="float:right;"><button type="button" onclick="window.location.href='ch7.html';">Next</button></span>
+<span style="float:right;"><button type="button" onclick="window.location.href='ch8.html';">Next</button></span>
 </p>
 
 
