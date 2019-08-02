@@ -14,13 +14,13 @@ The purpose of these notes is to help quickly refresh the course materials, incl
 ## **Table of Contents**
 
 * Chapter 1: Preview
-* [Chapter 2: Configuration Space](ch2.html)
-* [Chapter 3: Rigid-Body Motions](ch3.html)
-* [Chapter 4: Forward Kinematics](ch4.html)
-* [Chapter 5: Velocity Kinematics and Statics](ch5.html)
-* [Chapter 6: Inverse Kinematics](ch6.html)
+* [**Chapter 2: Configuration Space**](ch2.html)
+* [**Chapter 3: Rigid-Body Motions**](ch3.html)
+* [**Chapter 4: Forward Kinematics**](ch4.html)
+* [**Chapter 5: Velocity Kinematics and Statics**](ch5.html)
+* [**Chapter 6: Inverse Kinematics**](ch6.html)
 * Chapter 7: Kinematics of Closed Chains
-* [Chapter 8: Dynamics of Open Chains](ch8.html)
+* [**Chapter 8: Dynamics of Open Chains**](ch8.html)
 
 ## $$\LaTeX$$ Support
 
