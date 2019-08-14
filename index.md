@@ -9,7 +9,7 @@ Here are my notes of the [*Modern Robotics*](http://hades.mech.northwestern.edu/
 
 This course has a very comprehensive [homepage](http://hades.mech.northwestern.edu/index.php/Modern_Robotics), including free textbook in pdf, related software, and many other helpful information. 
 
-The purpose of these notes is to help quickly refresh the course materials, including textbook, course video, practise and quiz questions. All the notes are based on course materials and combined with my own understanding and extra information to the topics.
+The purpose of these notes is to help quickly refresh the course materials, including textbook, course video, practice and quiz questions. All the notes are based on course materials and combined with my own understanding and extra information to the topics.
 
 ## **Table of Contents**
 
@@ -19,7 +19,7 @@ The purpose of these notes is to help quickly refresh the course materials, incl
 * [**Chapter 4: Forward Kinematics**](ch4.html)
 * [**Chapter 5: Velocity Kinematics and Statics**](ch5.html)
 * [**Chapter 6: Inverse Kinematics**](ch6.html)
-* **Chapter 7: Kinematics of Closed Chains**
+* [**Chapter 7: Kinematics of Closed Chains**](ch7.html)
 * [**Chapter 8: Dynamics of Open Chains**](ch8.html)
 
 ## $$\LaTeX$$ Support
@@ -28,6 +28,6 @@ Thanks to [Haixing Hu's tutorial](https://haixing-hu.github.io/programming/2013/
 
 ## Copyright Information
 
-The material on this website is Copyright by Muchen Sun. Please address usage inquiries to [Muchen Sun](mailto:muchensun2021@u.northwestern.edu).
+The course notes are based on Prof. Kevin Lynch's book \<Modern Robotics\> and related course materials. Contents of this website is Copyright by Muchen Sun. Please address usage inquiries to [Muchen Sun](mailto:muchensun2021@u.northwestern.edu).
 
 

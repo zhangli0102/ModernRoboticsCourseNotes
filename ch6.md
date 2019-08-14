@@ -9,13 +9,15 @@ is_project_page: false
 <p style="text-align:center;">
 <button type="button" onclick="window.location.href='index.html';">Homepage</button>
 <span style="float:left;"><button type="button" onclick="window.location.href='ch5.html';">Previous</button></span>
-<span style="float:right;"><button type="button" onclick="window.location.href='ch8.html';">Next</button></span>
+<span style="float:right;"><button type="button" onclick="window.location.href='ch7.html';">Next</button></span>
 </p>
 
 
 ## Analytic Inverse Kinematics and Numerical Inverse Kinematics
 
-These are two common solutions for inverse kinematics problem. Analytic solution depends on the structure of the robot. They can be easily obtained from some popluar robot structures like PUMA and Stanford robot arms (both are discussed in the book). However, for a more general purpose, numerical method is a better idea. Here, the numerical method is adapted from Newton-Raphson method.
+The **inverse kinematics** is the opposite problem of **forward kinematics**(not the velocity kinematics problem discussed in the last chapter), it aims to calculate a set of joint values given a homogeneous transformation matrix representing the transformation between current configuration and desired configuration of the end-effector. 
+
+These are two common solutions for inverse kinematics problem. Analytic solution depends on the structure of the robot. They can be easily obtained from some popluar robot structures like PUMA and Stanford robot arms (both are discussed in the book). However, numerical method is a better idea in more general cases. Here, the numerical method is adapted from Newton-Raphson method.
 
 ***
 
@@ -74,6 +76,18 @@ Similar idea has already mentioned in the textbook. At *section 3.2.3.3 "Matrix 
 This idea came from *section 3.2.3.2 "Exponential Coordinates of Rotations"* of the textbook, when the authors considered a rotation transformation along an axis $\hat{\omega}$ for $\theta$ radians as achieved by rotating in a constant speed of 1 rad/s for $\theta$ seconds (or in a constant speed of $\theta$ rad/s for one second).
 
 It is quite straightforward to employ this idea to the case of twist and homogeneous transformtion matrix. In *proposition 3.25* of the textbook, we can even determine that directly by seeing components of $e^{[\mathcal{S}]\theta}$.
+
+***
+
+## Singularity, Redundant, Fat and Tall
+
+Here "singularity", "redundant", "fat", and "tall" might be confusing sometimes, let's figure them out.
+
+First, a mechanism is at **singularity**, when its Jacobian matrix fails to be of maximal rank, which means at least two columns or two rows of the the matrix are aligned. In this situation, the robot loses the ability to move instantaneously in one or more directions.
+
+Second, a mechanism is **redundant**, when its Jacobian matrix has more than 6 columns. In this situation, the robot has more DoF than the task space, which will generate internal motions that are not evident in the motion of the end-effector.
+
+Third, a Jacobian matrix is **tall** when it has less columns than rows, while the matrix is "fat" when it has more columns than rows.
 
 ***
 
