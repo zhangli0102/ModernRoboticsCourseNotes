@@ -159,3 +159,9 @@ My solution is, for this singularity, similar with the mechanism in figure (a), 
 ### The Human Arm Problem
 
 For the human arm problem mentioned above, the given solution indicates that there are two constraints on the palm to keep the tray horizontal. However, if we assume the arm is a SRS mechanism, which is the assumption of the given solution, the dof should be **seven**. Even though the tray must be horizontal, the spherical joint can still move in all three degrees, with the corporation with the rest two joints. Is my understanding correct?
+
+***
+
+<p style="text-align:center;">
+<button type="button" onclick="window.location.href='#top';">Back To Top</button>
+<p>

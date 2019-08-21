@@ -199,3 +199,9 @@ If rank $H_p(q) < p$ then $q$ is an actuator singularity, in which case $H_p$ is
 If rank $H(q) < p$ then $q$ is a configuration space singularity. Note this also means actuator singularity.
 
 Details about end-effector singularity and example of these three singularities can found in the *Section 7.3* of the textbook.
+
+***
+
+<p style="text-align:center;">
+<button type="button" onclick="window.location.href='#top';">Back To Top</button>
+<p>

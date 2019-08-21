@@ -147,3 +147,9 @@ else:
 ## References
 
 [1] [Newton's method (Wikipedia)](https://en.wikipedia.org/wiki/Newton%27s_method)
+
+***
+
+<p style="text-align:center;">
+<button type="button" onclick="window.location.href='#top';">Back To Top</button>
+<p>
